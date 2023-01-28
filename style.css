@@ -1,0 +1,233 @@
+html {
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 888px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 27px;
+}
+
+.nav__list {
+  display: flex;
+  gap: 33px;
+  list-style: none;
+}
+
+.nav__list-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  text-decoration: none;
+  color: #000;
+}
+
+.first-block {
+  margin-top: 140px;
+  margin-bottom: 70px;
+}
+
+.first-block .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.fb-content {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.fb-content__title {
+  font-family: "Heebo";
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243d;
+}
+
+.fb-content__subtitle {
+  font-family: "Heebo";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243d;
+}
+
+.fb-content__btn {
+  background: #ff6464;
+  border-radius: 2px;
+  padding: 13px 20px;
+  font-family: "Heebo";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.posts-section {
+  background: #edf7fa;
+  padding: 20px 0 32px 0;
+}
+
+.posts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.posts-header h4 {
+  font-family: "Heebo";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243d;
+}
+
+.posts-header a {
+  font-family: "Heebo";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #00a8cc;
+  text-decoration: none;
+}
+
+.pm-block {
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.posts-main {
+  display: flex;
+  gap: 20px;
+}
+
+.pm-block__title {
+  font-family: "Heebo";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+  color: #21243d;
+  margin-bottom: 17px;
+}
+
+.pm-block__date {
+  font-family: "Heebo";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #21243d;
+  margin-bottom: 11px;
+}
+
+.pm-block__subtitle {
+  font-family: "Heebo";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243d;
+}
+
+.features-section {
+  padding: 15px 0 90px 0;
+}
+
+.features__title {
+  font-family: "Heebo";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243d;
+  margin-bottom: 22px;
+}
+
+.features-main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.fm-block {
+  display: flex;
+  gap: 18px;
+  border-bottom: 1px solid #E0E0E0;
+  padding: 30px 0;
+}
+
+.fm-content {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.fm-content h2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  color: #21243d;
+}
+
+.fm-box {
+  display: flex;
+  gap: 26px;
+  align-items: center;
+}
+
+.fm-box h4 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  background: #142850;
+  border-radius: 16px;
+  padding: 0 10px;
+}
+
+.fm-box p {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695a4;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 54px;
+}
+
+.footer-content {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 26px;
+  list-style: none;
+}
